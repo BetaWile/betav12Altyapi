@@ -6,8 +6,8 @@ const { prefix } = require('../ayarlar.json')
 module.exports = client => {
   var degisenOynuyor = [
     
-    "Youtube/NoblesYT",
-    "v12 Boş Altyapı"
+    "DEĞİŞEN OYNUYOR 1",   //İSTEDİĞİNİZ KADAR YAPABİLİRSİNİZ SADECE SONRA , KOYMAYIN
+    "DEĞİŞEN OYNUYOR 2"
     
   ]
   
@@ -17,6 +17,6 @@ module.exports = client => {
 
 }, 2 * 30000);
   
-  client.user.setStatus("idle"); //dnd, idle, online, offline
+  client.user.setStatus("online"); //dnd, idle, online, offline
   
 }
