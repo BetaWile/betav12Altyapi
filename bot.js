@@ -5,7 +5,6 @@ const chalk = require("chalk");
 const fs = require("fs");
 const moment = require("moment");
 const Jimp = require("jimp");
-const db = require("quick.db");
 var prefix = ayarlar.prefix;
 
 client.on("ready", () => {
