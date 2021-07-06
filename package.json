@@ -1,0 +1,16 @@
+{
+  "name": "discord-empty-bot",
+  "version": "1.0.0",
+  "description": "discord*bot",
+  "main": "beta.js",
+  "scripts": {
+    "test": "node beta.js"
+  },
+  "author": "Beta",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "moment": "^2.29.1",
+    "quick.db": "^7.1.3"
+  }
+}
